@@ -2,13 +2,15 @@
 
 React Init is a quick-start package for building Single Page React Applications. It provides you with a preconfigured build process and a project scaffold that can be built upon.
 
-ESLint is included to enforce uniform and well-written code, but it is fully customizable through the _.eslintrc_ file.
+ESLint and Prettier are included to enforce uniform and well-written code. Both are customizable through their respective configuration files.
 
-Formik and Yup are the new better alternative to Redux Form and I strongly encourage you to use them if you aren't already.
+Formik and Yup are the new better alternative to Redux Form and come preinstalled.
 
-This package has also been updated to Webpack 4 and the configuration files have been mostly trimmed to adjust to the changes.
+This package has also been updated to Webpack 4 and the configuration files have been trimmed to adjust to the changes.
 
 Enzyme and Jest have been included for testing.
+
+Git hooks are set up with Husky that format your files with Prettier and check for code errors with ESLint on commit.
 
 ## Includes
 
