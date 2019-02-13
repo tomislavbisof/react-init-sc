@@ -5,11 +5,11 @@
     "es6": true,
     "jest": true
   },
-  "extends": "airbnb",
+  "extends": ["airbnb", "prettier"],
   "parser": "babel-eslint",
   "rules": {
     "import/no-extraneous-dependencies": [
-      "error", 
+      "error",
       {
         "devDependencies": true
       }

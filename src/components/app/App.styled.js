@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import colors from './constants/colors';
+import colors from '../../constants/colors';
 
 export const AppStyled = styled.div`
   width: 100%;
@@ -14,7 +14,7 @@ export const WelcomeStyled = styled.div`
 
   background: ${colors.base};
 
-  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
 
   @media (min-width: 480px) {
     margin: 60px auto 0 auto;
@@ -52,7 +52,7 @@ export const Item = styled.li`
 
 export const Link = styled.a`
   color: inherit;
-  
+
   font-weight: 700;
   text-decoration: none;
 
