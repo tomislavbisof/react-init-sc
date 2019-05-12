@@ -42,5 +42,5 @@ module.exports = merge(common, {
     publicPath: '',
   },
 
-  plugins: [new CleanWebpackPlugin(['dist'])],
+  plugins: [new CleanWebpackPlugin()],
 });
